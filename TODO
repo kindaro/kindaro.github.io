@@ -1,0 +1,7 @@
+TODO
+====
+
+1. de-capitalize.
+
+2. Add quick publishing to master branch rather than gh-pages because that's how it works for user
+pages.
