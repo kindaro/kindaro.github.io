@@ -1,0 +1,3 @@
+[submodule "kouto-swiss"]
+	path = kouto-swiss
+	url = https://github.com/krkn/kouto-swiss
