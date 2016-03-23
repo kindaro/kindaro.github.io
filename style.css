@@ -316,8 +316,7 @@ td,
 th {
   padding: 0;
 }
-main {
-  background-color: #403818;
+main article {
   width: 100%;
   z-index: 1;
   height: 100vh;
@@ -350,14 +349,18 @@ main {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-}
-main article {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
   font-family: 'Arvo';
   line-height: 1.2;
   color: #9998a1;
+}
+main article.even {
+  background-color: #1d1b1d;
+}
+main article.odd {
+  background-color: #024774;
 }
 main .row {
   display: block;
@@ -380,13 +383,42 @@ main .right {
   margin: 0 0%;
   text-align: left;
 }
-main .are {
-  color: #1d1d1d;
+main .center {
+  display: -ms-flex;
+  -ms-flex-direction: column;
+  -ms-justify-content: center;
+  -ms-align-content: space-around;
+  -ms-align-items: center;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+  -webkit-align-content: space-around;
+  -webkit-align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -webkit-align-content: space-around;
+  -ms-align-content: space-around;
+  align-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
 }
-main .ordinary:after,
-main .are:after,
-main .you:after {
+main span:after {
   content: '\00a0';
+}
+main .are {
+  color: #584f2b;
 }
 main .you {
   color: #1a5a83;
