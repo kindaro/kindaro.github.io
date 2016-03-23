@@ -39,20 +39,26 @@ disable-user-select()
     cursor             default
 
 main
-    background-color color-complement-4
-    width 100%
-    z-index 1
-    height 100vh
-    
-
-    flex-center()
 
     article
+
+        width 100%
+        z-index 1
+        height 100vh
+        
+        flex-center()
+
         gs( 'fluid', , ,0 )
 
         font-family 'Arvo'
         line-height 1.2
         color color-primary-0
+
+    article.even
+        background-color color-secondary-1-2
+
+    article.odd
+        background-color color-secondary-2-3
 
     .row
         row()
