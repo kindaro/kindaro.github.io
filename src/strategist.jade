@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+    head
+        include _include/head
+    body
+        header
+        main.strategist
+
+            article.strategist
+                div.row.headings
+                    div.col &nbsp;
+                    each heading in data.headings
+                        div.col= heading
+                each cols, row in data.rows
+                    div.clearfix
+                    div.row
+                        div.col= row
+                        each col in cols
+                            div.col= col
+
+
