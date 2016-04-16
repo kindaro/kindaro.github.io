@@ -14,7 +14,7 @@ html(lang='en')
                 each cols, row in data.rows
                     div.row
                         div.col= row
-                        each col in cols
-                            div.col= col
+                        each col, colnumber in cols
+                            div.col(class='colnumber-' + colnumber)= col
 
 
