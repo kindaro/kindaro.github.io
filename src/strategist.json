@@ -1,0 +1,104 @@
+{ "data":
+    { "headings":
+        [ "Level 1"
+        , "Level 2"
+        , "Level 3"
+        , "Level 4"
+        , "Level 5"
+        , "Level 6"
+        , "Level 7"
+        , "Level 8"
+        , "Level 9"
+        ]
+    , "rows":
+        { "Research":
+            [ "I can compile relevant online research without explicit guidance."
+            , "I can formulate a clear hypothesis and recommend methods for testing it."
+            , "I can manage primary research using established methods."
+            , "I can identify significant research findings and synthesize them in an actionable report."
+            , "I can design and manage an original method for primary research."
+            , "I can evaluate complex data and findings for validity, significance, and implications."
+            , "I can produce original data that results in groundbreaking new findings."
+            , "I can originate winning a commercial offering based on my own data and findings."
+            , "I have achieved wide recognition as a master in this practice area."
+            ]
+        , "Communication":
+            [ "I can write and speak clearly and intelligently when I am comfortable and prepared."
+            , "I can craft a cogent and compelling argument in email, document, or conversation."
+            , "I can write and speak clearly and intelligently about complex ideas, systems, and strategies."
+            , "I can maintain productive dialogue with all my colleagues and clients without dropping balls."
+            , "I can proactively communicate with clients, prospects, partners, and candidates to generate a winning outcome."
+            , "I can persuade clients and colleagues to see the situation/world as I see it."
+            , "I can adapt my approach in real-time to ensure a winning outcome, regardless of the situation or dynamic."
+            , "I can originate language, styles, and rituals of communication that become part of the cultures I work with."
+            , "I have achieved wide recognition as a master in this practice area."
+            ]
+        , "Making":
+            [ "I can transform an idea or concept into a coherent outline or storyboard."
+            , "I can visualize my thinking compellingly with pen and paper, marker and board."
+            , "I can create an artifact that is error-free down to the letter, fact, and pixel."
+            , "I can be entirely responsible for a winning deliverable."
+            , "I can synthesize complex information into a winning deliverable that tells a compelling story."
+            , "I can create an artifact that sets a new standard for everyone around me."
+            , "I can invent an entirely new artifact that expands our ability to engage an audience."
+            , "I can originate an artifact and/or story that is replicated and evolved by broader culture."
+            , "I have achieved wide recognition as a master in this practice area."
+            ]
+        , "Insight":
+            [ "I have achieved wide recognition as a master in this practice area."
+            , "I can identify interesting patterns that combine diverse references."
+            , "I can develop an insight that is actionable, goal-oriented, and provides a unique orientation for a project."
+            , "I can originate an idea that works in the marketplace."
+            , "I can develop a framework for innovation that guides the creation of new insights/ideas."
+            , "I can develop an insight or framework that becomes fundamental to our clients' business and worldview."
+            , "I can originate an idea that wins big in the marketplace."
+            , "I can originate an insight or framework that influences broader culture."
+            , "I have achieved wide recognition as a master in this practice area."
+            ]
+        , "Presentation":
+            [ "I can add incremental value to a meeting, call, or presentation."
+            , "I can successfully deliver a sizable portion of a final presentation."
+            , "I can successfully deliver a winning presentation without assistance."
+            , "I can engage clients, regardless of their position, with a narrative that wins them over."
+            , "I can overcome challenges during a presentation and turn objections into deeper understanding."
+            , "I can lead a room in any context, commanding attention or action when necessary, and getting the best out of everyone."
+            , "I can present to the C-suite and create discourse that achieves high-stakes outcomes."
+            , "I can originate a winning presentation style or technique that is recognized and replicated."
+            , "I have achieved wide recognition as a master in this practice area."
+            ]
+        , "Manifestation":
+            [ "I can describe the WWWWH of bringing a simple strategy to life."
+            , "I can take an approved strategy, and with supervision and support, bring it to life."
+            , "I can sense and solve an emergent problem in the midst of a complex and quickly moving initiative."
+            , "I can take an approved strategy and bring it to life in winning form."
+            , "I can keep a team of strategists, partners, and clients focused, on-task, and excited about their role in a complex initiative."
+            , "I can take a focused initiative and turn it into a catalyst with broader organizational impact."
+            , "I can take a mandate for seismic change and execute against it confidently."
+            , "I can originate a method for realizing strategy that influences broader culture."
+            , "I have achieved wide recognition as a master in this practice area."
+            ]
+        , "Management":
+            [ "I can give a colleague, regardless of seniority, warm and honest feedback."
+            , "I can provide critical feedback in a way that inspires its recipient to commit and improve."
+            , "I can finish a project on-time to client and colleague satisfaction."
+            , "I can noticeably improve a colleague's capabilities over time."
+            , "I can get more out of an individual or team; people go above and beyond when they play for me."
+            , "I can achieve a winning outcome in spite of an imperfect or imbalanced team."
+            , "I can lead and manage a group of any shape or size, contributing meaningfully to the growth and well-being of every person connected to me, while realizing an ambitious shared goal."
+            , "I can originate a management technique that impacts the way other companies approach leadership, development, and training."
+            , "I have achieved wide recognition as a master in this practice area."
+            ]
+        , "Counsel":
+            [ "I can list the things that are important to my colleagues and clients."
+            , "I can offer meaningful off-the-cuff advisement to a colleague and client."
+            , "I can unearth a valuable new opportunity for my clients in the midst of a conversation with them."
+            , "I can create and maintain an authentic relationship with a senior client that extends beyond our engagement."
+            , "I can participate in a deep, thoughtful conversation with a senior client about any part of their business."
+            , "I can establish a career partnership with a key client that transcends roles and accelerates our mutual success."
+            , "I can provide counsel to a C-suite client, and that counsel has a direct, positive impact on their business and the EBF."
+            , "I can originate an innovative form of senior partnership and collaboration that is recognized and replicated."
+            , "I have achieved wide recognition as a master in this practice area."
+            ]
+        }
+    }
+}
