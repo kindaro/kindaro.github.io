@@ -6,6 +6,9 @@ yaml = require ('gulp-yaml')
 sass = require ('gulp-sass')
 minifyHTML = require ('gulp-minify-html')
 pages = require ('gulp-gh-pages')
+data = require ('gulp-data')
+path = require 'path'
+fs = require 'fs'
 
 gulp.task 'default', ['coffee', 'jade', 'styl', 'yaml']
 
@@ -22,6 +25,17 @@ gulp.task 'gulpfile',
 gulp.task 'jade',
     ->
         gulp.src ['./src/**/*.jade', '!./src/_*/**/*.jade']
+        .pipe data (file, cb) ->
+            fname = path.join (path.dirname file.path), (path.basename file.path, path.extname file.path) + '.json'
+            console.log fname
+            fs.access fname, fs.F_OK, (err) ->
+                if !err
+                    console.log fname + ' ... success!'
+                    fdata = require fname
+                    cb undefined, fdata
+                else
+                    console.log fname + ' ... failure.'
+                    cb undefined, {}
         .pipe jade {pretty: true}
         .pipe minifyHTML { }
         .pipe gulp.dest './build'

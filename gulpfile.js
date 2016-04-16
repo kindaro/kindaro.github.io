@@ -1,4 +1,4 @@
-var coffee, gulp, jade, minifyHTML, pages, sass, stylus, yaml;
+var coffee, data, fs, gulp, jade, minifyHTML, pages, path, sass, stylus, yaml;
 
 gulp = require('gulp');
 
@@ -16,6 +16,12 @@ minifyHTML = require('gulp-minify-html');
 
 pages = require('gulp-gh-pages');
 
+data = require('gulp-data');
+
+path = require('path');
+
+fs = require('fs');
+
 gulp.task('default', ['coffee', 'jade', 'styl', 'yaml']);
 
 gulp.task('watch', function() {
@@ -29,7 +35,22 @@ gulp.task('gulpfile', function() {
 });
 
 gulp.task('jade', function() {
-  return gulp.src(['./src/**/*.jade', '!./src/_*/**/*.jade']).pipe(jade({
+  return gulp.src(['./src/**/*.jade', '!./src/_*/**/*.jade']).pipe(data(function(file, cb) {
+    var fname;
+    fname = path.join(path.dirname(file.path), (path.basename(file.path, path.extname(file.path))) + '.json');
+    console.log(fname);
+    return fs.access(fname, fs.F_OK, function(err) {
+      var fdata;
+      if (!err) {
+        console.log(fname + ' ... success!');
+        fdata = require(fname);
+        return cb(void 0, fdata);
+      } else {
+        console.log(fname + ' ... failure.');
+        return cb(void 0, {});
+      }
+    });
+  })).pipe(jade({
     pretty: true
   })).pipe(minifyHTML({})).pipe(gulp.dest('./build'));
 });
