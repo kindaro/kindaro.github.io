@@ -316,7 +316,7 @@ td,
 th {
   padding: 0;
 }
-main article {
+main.index article {
   width: 100%;
   z-index: 1;
   height: 100vh;
@@ -356,18 +356,18 @@ main article {
   line-height: 1.2;
   color: #9998a1;
 }
-main article.even {
+main.index article.even {
   background-color: #1d1b1d;
 }
-main article.odd {
+main.index article.odd {
   background-color: #024774;
 }
-main .row {
+main.index .row {
   display: block;
   width: 100%;
   margin: 0 0%;
 }
-main .left {
+main.index .left {
   display: inline-block;
   float: left;
   overflow: hidden;
@@ -375,7 +375,7 @@ main .left {
   margin: 0 0%;
   text-align: right;
 }
-main .right {
+main.index .right {
   display: inline-block;
   float: left;
   overflow: hidden;
@@ -383,7 +383,7 @@ main .right {
   margin: 0 0%;
   text-align: left;
 }
-main .center {
+main.index .center {
   display: -ms-flex;
   -ms-flex-direction: column;
   -ms-justify-content: center;
@@ -414,12 +414,58 @@ main .center {
   -ms-align-items: center;
   align-items: center;
 }
-main span:after {
+main.index span:after {
   content: '\00a0';
 }
-main .are {
+main.index .are {
   color: #584f2b;
 }
-main .you {
+main.index .you {
   color: #1a5a83;
+}
+main.strategist article.strategist {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: 'Arvo';
+  font-size: 70%;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+main.strategist .row {
+  display: block;
+  width: 101%;
+  margin: 0 -0.5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1ex;
+}
+main.strategist .row:before,
+main.strategist .row:after {
+  content: " ";
+  display: table;
+}
+main.strategist .row:after {
+  clear: both;
+}
+main.strategist .col {
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  width: 9%;
+  margin: 0 0.5%;
+  padding-bottom: 1ex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px #584f2b;
+  background-color: #1d1b1d;
 }
