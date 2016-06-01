@@ -8,12 +8,11 @@ html(lang='en')
 
             article.reiss-motivations
                 div.row.headings
-                    div.col &nbsp;
-                    each heading in data.headings
-                        div.col= heading
+                each heading, colnumber in data.headings
+                    div.col(class='colnumber-' + colnumber)= heading
                 each row in data.rows
-                    div.row
-                    each col in row
+                    div.row.data
+                    each col, colnumber in row
                         div.col(class='colnumber-' + colnumber)= col
 
 
