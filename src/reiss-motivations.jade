@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+    head
+        include _include/head
+    body
+        header
+        main.reiss-motivations
+
+            article.reiss-motivations
+                div.row.headings
+                    div.col &nbsp;
+                    each heading in data.headings
+                        div.col= heading
+                each row in data.rows
+                    div.row
+                    each col in row
+                        div.col(class='colnumber-' + colnumber)= col
+
+
